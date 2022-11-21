@@ -1,0 +1,18 @@
+.section{
+    padding: calc(5rem + 4.5rem) 0;
+}
+
+.breadcrumb_area{
+    padding-top: 190px;
+    padding-bottom: 120px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.gradient_bg{
+    background-color: #8E02F6;
+    background-image: url(./../../assets/images/19840608_dog_bone_paw_seamless_pattern_footprint_puppy_cartoon_character-removebg-preview.png);
+    background-position: center;
+}
+

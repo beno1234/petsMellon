@@ -1,0 +1,116 @@
+.section_heading{
+    margin-bottom: 90px;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+
+
+
+.section_heading h2{
+    font-size: 3rem;
+}
+
+
+.bg_light{
+    background-color: #fff6e8 !important;
+}
+
+.circle_images .img1{
+    max-width: 220px !important;
+    height: auto !important;
+    
+}
+
+.circle_images .img2{
+    max-width: 350px !important;
+    height: auto !important;
+    margin-left: 120px;
+    margin-top: -70px;
+}
+
+.circle_images .img3{
+    max-width: 270px !important;
+    height: auto !important;
+    margin-top: -70px;
+}
+
+.circle_images img{
+    border: 12px solid #F9AD3D !important;
+}
+
+.feature_with_icon{
+    transition: all 0.4s ease-in-out;
+    border: 2px solid transparent;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 3px 5px 16px rgb(0 0 0 / 10%);
+    text-align: center;
+    position: relative;
+}
+
+.feature_with_icon h5{
+    color: #222;
+    font-size: 1.6em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.feature_with_icon i{
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.feature_section{
+    background-image: url(https://www.ingridkuhn.com/themes/doggo/img/about/about1.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.feature_with_icon:hover{
+    border: 2px solid rgba(0, 160, 80, 0);
+}
+
+
+.feature_with_icon::before{
+    content: '';
+    border-radius: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    transition: all 0.8s ease-in-out 0s;
+    width: 100%;
+    z-index: 3;
+}
+
+.swiper_height{
+height: auto;
+background: orange;
+text-align: center;
+padding: 1rem;
+color: #222;
+}
+
+.swiper_height ul li{
+   display: flex !important;
+   text-align: left !important;
+ }
+
+.lista li{
+    width: 220px;
+}
+  
+  
+
+
+.dark {
+    color: #000;
+}
+
+.light {
+    color: #fff;
+}
